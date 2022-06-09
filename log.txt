@@ -1,0 +1,98 @@
+##5 April 2021
+    - revisi workorder model data WO admin & admin MC di pisahkan
+
+##7 April 2021
+    - Fitur import progress & holidays
+
+##8 April 2021 :
+    1. View dashboard => index.php
+        - update grafik biaya monthly => max scale 10 juta
+        - update grafik progress => max scale 30
+        - update grafik jml wo monthly => max scale 30
+    2. Model dashboard => dashboard_model.php
+        - update grafik pareto limit 20
+        - penambahan data untuk role SEction MTC id role 8
+    3. Controller dashboard => dashboard.php
+        - penambahan data grafik biaya per dept
+    4. View add work order => add.php
+        - perubahan kode wo
+    5. Model work order => workorder_model.php
+        - update query max code
+
+##9 April 2021
+    1. notifikasi.php
+        - perubahan setting email server 
+        - alamat email by user WO
+    2. Penambahan library select.js & select.css
+    3. Update myscript.js
+    4. update header.php & footer.php ( source )
+## 12 April 2021
+    1. Update view header 
+        - Notifikasi 
+        - Email 
+    2. Update view dashboard-index.php 
+        - perubahan grafik progress hanya open 
+        - perubahan judul grafik
+    3. Udpate model dashboard_model.php 
+        - hanya yang open saja yang tampil di grafik progress
+        - perbaikan bug jumlah wo per progress
+## 13 April 2021
+    1. Update file notifikasi 
+        - notifikasi dept head, div head, Admin MTC //UPLOADED
+    2. Update file Mailer.php
+        - format email untuk reminder 
+            UPLOADED
+    3. Fitur notifikasi
+        - file view index.php //UPLOADED
+        - controller notifikasi.php //UPLOADED
+        - model notifikasi_model.php //UPLOADED
+        - header.php
+## 15 April 2021
+    1. Update fitur notifikasi
+        - update file index.php workorder View //UPLOADED
+        - update controller workorder.php //UPLOADED
+        - update file detail.php workorder view //UPLOADED
+        - update semua file controller //UPLOADED
+
+    2. Fitur block pembelian jika uang belum diambil
+        - update controller pembelian //UPLOADED
+        - update kaskeluar model //UPLOADED
+        - update myscript.js //UPLOADED
+
+# 16 April 2021
+    1. Update notifikasi live.php 
+        - update ORDER by dept & tanggal // UPLOADED
+    2. Update work order view index.php
+        - update otorisasi update data Dept head & admin //UPLOADED
+
+# 19 April 2021
+    1. update antrian 
+        - menambahkan fitur estimasi pengerjaan activity // UPLOADED
+        - workorder database : tambah kolom estimasi  // UPLOADED
+        - update workorder_model.php ubah metode insert & update // UPLOADED
+    2. update view material
+        - penambahan item satuan pada file add.php & edit.php //UPLOADED
+    3. update view activity
+        - update field tanggal actual  // UPLOADED
+        - pilihan blank status // UPLOADED
+        - File update (activity_model.php, add.php, edit.php, editall.php)//UPLOADED
+        - penambahan kolom aktual di tabel workorder.activity // UPLOADED
+
+# 21 April 2021
+    1. Update detail work order detail 
+        - menampilkan detail pembelian material di detail WO
+        - file update (detail.php, pembelian_model.php, workorder.php, workorder_model.php) //UPLOADED
+
+# 23 April 2021
+    1. Fitur chat message
+        - chat.css
+        - footer-chat.php
+        - chat.js
+        - index.php
+        - chat_model.php
+        - chat.php
+        - table chat_message DB 
+        - table login_detail DB
+        - header.php
+        - Auth.php
+        - user_model.php
